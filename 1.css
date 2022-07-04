@@ -1,2827 +1,415 @@
-#HEADER_1 {
-    block-size: 80px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 560px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 80px;
-    inline-size: 1920px;
-    inset-block-end: 560px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    perspective-origin: 960px 40px;
-    position: absolute;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 960px 40px;
-    width: 1920px;
+@import url("//fonts.googleapis.com/css2?family=Noto+Sans"); 
+.css-az98zw { 
+    background-color: rgb(2, 135, 77); 
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    height: 80px; 
+    width: 100%;
+} 
+
+#gc-header { 
+    -moz-osx-font-smoothing:  grayscale; 
+    -webkit-font-smoothing:  antialiased;
+    position: absolute; 
     z-index: 2000;
-    background: rgb(2, 135, 77) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#HEADER_1*/
+} 
 
-#HEADER_1:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#HEADER_1:after*/
+#root { 
+    height: 100vh;
+} 
 
-#HEADER_1:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#HEADER_1:before*/
+body { 
+    font-family:  'Noto Sans', sans-serif; 
+    font-size:  1rem; 
+    height:  100%; 
+    line-height:  1.3; 
+    margin:  0; 
+    overflow:  hidden; 
+    position:  absolute; 
+    width:  100%;
+    margin-left: 0; 
+    transition: margin-left 0.1s ease-out; 
+} 
 
-#NAV_2 {
-    align-items: center;
-    block-size: 80px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    box-sizing: border-box;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: flex;
-    height: 80px;
-    inline-size: 1920px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    min-block-size: 80px;
-    min-height: 80px;
-    padding-inline-end: 32px;
-    padding-inline-start: 32px;
-    perspective-origin: 960px 40px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 960px 40px;
-    width: 1920px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
+nav  { 
+    -webkit-box-align: center; 
+    align-items: center; 
+    box-sizing: border-box; 
+    display: flex; 
+    max-width: 1300px; 
+    min-height: 80px; 
+    overflow: visible; 
+    padding: 0px 12px; 
+    width: 100vw; 
+    position: relative !important;
+} 
+
+@media screen and (min-width: 768px){ 
+  nav  { 
+    margin: 0px auto; 
     padding: 0px 32px;
-}/*#NAV_2*/
+  } 
+}     
 
-#NAV_2:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: block;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#NAV_2:after*/
+nav  { 
+    max-width: none !important; 
+    width: auto !important;
+} 
 
-#NAV_2:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: block;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#NAV_2:before*/
-
-#A_3 {
-    block-size: 62.3906px;
-    border-block-end-color: rgb(61, 118, 197);
-    border-block-start-color: rgb(61, 118, 197);
-    border-inline-end-color: rgb(61, 118, 197);
-    border-inline-start-color: rgb(61, 118, 197);
-    bottom: 577.609px;
-    caret-color: rgb(61, 118, 197);
-    color: rgb(61, 118, 197);
-    column-rule-color: rgb(61, 118, 197);
-    display: block;
-    height: 62.3906px;
-    inline-size: 0px;
-    inset-block-end: 577.609px;
-    inset-block-start: 0px;
-    inset-inline-end: 1920px;
-    inset-inline-start: 0px;
-    left: 0px;
-    perspective-origin: 0px 31.1875px;
-    position: fixed;
-    right: 1920px;
-    text-decoration: underline solid rgb(61, 118, 197);
-    text-emphasis-color: rgb(61, 118, 197);
-    top: 0px;
-    transform-origin: 0px 31.1953px;
+.css-11dfp96 { 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(61, 118, 197); 
+    left: 0px; 
+    overflow: hidden; 
+    position: fixed; 
+    text-decoration: underline; 
+    top: 0px; 
     width: 0px;
-    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 0px none rgb(61, 118, 197);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(61, 118, 197) none 0px;
-    overflow: hidden;
-}/*#A_3*/
+} 
 
-#A_3:after {
-    border-block-end-color: rgb(61, 118, 197);
-    border-block-start-color: rgb(61, 118, 197);
-    border-inline-end-color: rgb(61, 118, 197);
-    border-inline-start-color: rgb(61, 118, 197);
-    caret-color: rgb(61, 118, 197);
-    color: rgb(61, 118, 197);
-    column-rule-color: rgb(61, 118, 197);
-    text-decoration: none solid rgb(61, 118, 197);
-    text-emphasis-color: rgb(61, 118, 197);
-    border: 0px none rgb(61, 118, 197);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(61, 118, 197) none 0px;
-}/*#A_3:after*/
-
-#A_3:before {
-    border-block-end-color: rgb(61, 118, 197);
-    border-block-start-color: rgb(61, 118, 197);
-    border-inline-end-color: rgb(61, 118, 197);
-    border-inline-start-color: rgb(61, 118, 197);
-    caret-color: rgb(61, 118, 197);
-    color: rgb(61, 118, 197);
-    column-rule-color: rgb(61, 118, 197);
-    text-decoration: none solid rgb(61, 118, 197);
-    text-emphasis-color: rgb(61, 118, 197);
-    border: 0px none rgb(61, 118, 197);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(61, 118, 197) none 0px;
-}/*#A_3:before*/
-
-#A_4 {
-    block-size: 40px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-end-end-radius: 3px;
-    border-end-start-radius: 3px;
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    border-start-end-radius: 3px;
-    border-start-start-radius: 3px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: block;
-    height: 40px;
-    inline-size: 216px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    perspective-origin: 108px 20px;
-    text-decoration: underline solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 108px 20px;
+.home-link  { 
+    border-radius: 3px; 
+    color: rgb(255, 255, 255); 
+    display: block; 
+    flex: 0 0 216px; 
+    height: 40px; 
+    overflow: hidden; 
     width: 216px;
-    border: 0px none rgb(255, 255, 255);
-    border-radius: 3px;
-    flex: 0 0 216px;
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-    overflow: hidden;
-}/*#A_4*/
+} 
 
-#A_4:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#A_4:after*/
-
-#A_4:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#A_4:before*/
-
-#svg_5 {
-    block-size: 40px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    height: 40px;
-    inline-size: 216px;
-    perspective-origin: 108px 20px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 108px 20px;
+@media screen and (min-width: 1055px){ 
+  .home-link  { 
+    flex: 0 0 216px; 
     width: 216px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-    overflow: hidden;
-}/*#svg_5*/
+  } 
+}     
 
-#svg_5:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#svg_5:after*/
+.home-link:focus  { 
+    border: none; 
+    box-shadow: rgb(2, 135, 77) 0px 0px 0px 3px, rgb(255, 255, 255) 0px 0px 0px 5px; 
+    outline: none;
+} 
 
-#svg_5:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
+.home-link:visited  { 
     color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#svg_5:before*/
+} 
 
-#use_6 {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    perspective-origin: 0px 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 0px 0px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_6*/
+ul  { 
+    margin:  0px; 
+    padding:  0px;
+    -webkit-box-align: center; 
+    align-items: center; 
+    display: flex; 
+    list-style: none; 
+} 
 
-#use_6:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_6:after*/
-
-#use_6:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_6:before*/
-
-#svg_7 {
-    block-size: 100%;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
+.gc-menu  { 
+    font-size: 16px; 
     display: none;
-    fill: rgb(255, 255, 255);
-    height: 100%;
-    inline-size: 216px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    width: 216px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-    overflow: hidden;
-}/*#svg_7*/
+} 
 
-#svg_7:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    fill: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#svg_7:after*/
-
-#svg_7:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    fill: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#svg_7:before*/
-
-#use_8 {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    fill: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 0px 0px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_8*/
-
-#use_8:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    fill: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_8:after*/
-
-#use_8:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    fill: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_8:before*/
-
-#UL_9 {
-    align-items: center;
-    block-size: 28px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
+@media screen and (min-width: 768px){ 
+  .gc-menu  { 
     display: flex;
-    height: 28px;
-    inline-size: 300.719px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    padding-inline-start: 0px;
-    perspective-origin: 150.359px 14px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 150.359px 14px;
-    width: 300.719px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 0px;
-}/*#UL_9*/
+  } 
+}     
 
-#UL_9:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: block;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#UL_9:after*/
+.user-menu  { 
+    display: none; 
+    margin-left: auto;
+} 
 
-#UL_9:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: block;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#UL_9:before*/
+@media screen and (min-width: 768px){ 
+  .user-menu  { 
+    display: flex;
+  } 
+}     
 
-#LI_10 {
-    block-size: 28px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 28px;
-    inline-size: 78.9531px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    perspective-origin: 39.4688px 14px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 39.4766px 14px;
-    width: 78.9531px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_10*/
+button { 
+    font-family: "Noto Sans",sans-serif;
+} 
 
-#LI_10:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_10:after*/
-
-#LI_10:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_10:before*/
-
-#BUTTON_11 {
-    appearance: none;
-    block-size: 28px;
-    border-block-end-color: rgba(0, 0, 0, 0);
-    border-block-end-style: solid;
-    border-block-start-color: rgba(0, 0, 0, 0);
-    border-block-start-style: solid;
-    border-inline-end-color: rgba(0, 0, 0, 0);
-    border-inline-end-style: solid;
-    border-inline-start-color: rgba(0, 0, 0, 0);
-    border-inline-start-style: solid;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    height: 28px;
-    inline-size: 46.9531px;
-    margin-inline-start: 32px;
-    perspective-origin: 23.4688px 14px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 23.4766px 14px;
-    width: 46.9531px;
-    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 2px solid rgba(0, 0, 0, 0);
-    font: 16px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px 0px 0px 32px;
-    outline: rgb(255, 255, 255) none 0px;
+button  { 
+    border: 2px solid transparent; 
+    font-family: "Noto Sans", sans-serif; 
     transition: border-color 0.2s ease 0s;
-}/*#BUTTON_11*/
-
-#BUTTON_11:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#BUTTON_11:after*/
-
-#BUTTON_11:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#BUTTON_11:before*/
-
-#UL_12 {
-    align-items: center;
-    block-size: 490.766px;
-    border-block-end-color: rgb(228, 228, 228);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(228, 228, 228);
-    border-inline-end-style: solid;
-    border-inline-end-width: 1px;
-    border-inline-start-color: rgb(228, 228, 228);
-    border-inline-start-style: solid;
-    border-inline-start-width: 1px;
-    bottom: -538.766px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 490.766px;
-    inline-size: 234.453px;
-    inset-block-end: -538.766px;
-    inset-block-start: 51px;
-    inset-inline-end: -196.969px;
-    inset-inline-start: 0px;
-    left: 0px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-    margin-inline-start: 39.4688px;
-    padding-block-end: 12px;
-    padding-block-start: 12px;
-    padding-inline-start: 0px;
-    perspective-origin: 118.219px 257.875px;
-    position: absolute;
-    right: -196.969px;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 51px;
-    transform: matrix(1, 0, 0, 1, -16, 0);
-    transform-origin: 118.227px 257.883px;
-    width: 234.453px;
-    z-index: 100;
-    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    border-top: 0px none rgb(255, 255, 255);
-    border-right: 1px solid rgb(228, 228, 228);
-    border-bottom: 1px solid rgb(228, 228, 228);
-    border-left: 1px solid rgb(228, 228, 228);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px 0px 0px 39.4688px;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 12px 0px;
-}/*#UL_12*/
-
-#UL_12:after {
-    block-size: 24px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 502.766px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    content: '""';
-    display: block;
-    height: 24px;
-    inline-size: 24px;
-    inset-block-end: 502.766px;
-    inset-block-start: -12px;
-    inset-inline-end: 190.453px;
-    inset-inline-start: 20px;
-    left: 20px;
-    perspective-origin: 12px 12px;
-    position: absolute;
-    right: 190.453px;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: -12px;
-    transform: matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0);
-    transform-origin: 12px 12px;
-    width: 24px;
-    z-index: -1;
-    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#UL_12:after*/
-
-#UL_12:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#UL_12:before*/
-
-#LI_13, #LI_17 {
-    block-size: 55.7969px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 55.7969px;
-    inline-size: 234.453px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    perspective-origin: 117.219px 27.8906px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 117.227px 27.8984px;
-    width: 234.453px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_13, #LI_17*/
-
-#LI_13:after, #LI_17:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_13:after, #LI_17:after*/
-
-#LI_13:before, #LI_17:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_13:before, #LI_17:before*/
-
-#A_14, #A_18 {
-    align-items: center;
-    block-size: 55.7969px;
-    border-block-end-color: rgb(228, 228, 228);
-    border-block-end-style: solid;
-    border-block-end-width: 1px;
-    border-block-start-color: rgba(0, 0, 0, 0);
-    border-block-start-style: solid;
-    border-block-start-width: 2px;
-    border-inline-end-color: rgba(0, 0, 0, 0);
-    border-inline-end-style: solid;
-    border-inline-end-width: 2px;
-    border-inline-start-color: rgba(0, 0, 0, 0);
-    border-inline-start-style: solid;
-    border-inline-start-width: 2px;
-    box-sizing: border-box;
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    display: flex;
-    height: 55.7969px;
-    inline-size: 234.453px;
-    padding-block-end: 16px;
-    padding-block-start: 16px;
-    padding-inline-end: 24px;
-    padding-inline-start: 24px;
-    perspective-origin: 117.219px 27.8906px;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    transform-origin: 117.227px 27.8984px;
-    white-space: nowrap;
-    width: 234.453px;
-    border-top: 2px solid rgba(0, 0, 0, 0);
-    border-right: 2px solid rgba(0, 0, 0, 0);
-    border-bottom: 1px solid rgb(228, 228, 228);
-    border-left: 2px solid rgba(0, 0, 0, 0);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-    padding: 16px 24px;
-}/*#A_14, #A_18*/
-
-#A_14:after, #A_18:after {
-    border-block-end-color: rgb(74, 74, 74);
-    border-block-start-color: rgb(74, 74, 74);
-    border-inline-end-color: rgb(74, 74, 74);
-    border-inline-start-color: rgb(74, 74, 74);
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    white-space: nowrap;
-    border: 0px none rgb(74, 74, 74);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-}/*#A_14:after, #A_18:after*/
-
-#A_14:before, #A_18:before {
-    border-block-end-color: rgb(74, 74, 74);
-    border-block-start-color: rgb(74, 74, 74);
-    border-inline-end-color: rgb(74, 74, 74);
-    border-inline-start-color: rgb(74, 74, 74);
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    white-space: nowrap;
-    border: 0px none rgb(74, 74, 74);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-}/*#A_14:before, #A_18:before*/
-
-#svg_15, #svg_19 {
-    block-size: 16px;
-    border-block-end-color: rgb(74, 74, 74);
-    border-block-start-color: rgb(74, 74, 74);
-    border-inline-end-color: rgb(74, 74, 74);
-    border-inline-start-color: rgb(74, 74, 74);
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    cursor: pointer;
-    display: block;
-    height: 16px;
-    inline-size: 16px;
-    margin-inline-end: 8px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    perspective-origin: 8px 8px;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    transform-origin: 8px 8px;
-    white-space: nowrap;
-    width: 16px;
-    border: 0px none rgb(74, 74, 74);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px 8px 0px 0px;
-    outline: rgb(74, 74, 74) none 0px;
-    overflow: hidden;
-}/*#svg_15, #svg_19*/
-
-#svg_15:after, #svg_19:after {
-    border-block-end-color: rgb(74, 74, 74);
-    border-block-start-color: rgb(74, 74, 74);
-    border-inline-end-color: rgb(74, 74, 74);
-    border-inline-start-color: rgb(74, 74, 74);
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    white-space: nowrap;
-    border: 0px none rgb(74, 74, 74);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-}/*#svg_15:after, #svg_19:after*/
-
-#svg_15:before, #svg_19:before {
-    border-block-end-color: rgb(74, 74, 74);
-    border-block-start-color: rgb(74, 74, 74);
-    border-inline-end-color: rgb(74, 74, 74);
-    border-inline-start-color: rgb(74, 74, 74);
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    white-space: nowrap;
-    border: 0px none rgb(74, 74, 74);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-}/*#svg_15:before, #svg_19:before*/
-
-#use_16, #use_20 {
-    border-block-end-color: rgb(74, 74, 74);
-    border-block-start-color: rgb(74, 74, 74);
-    border-inline-end-color: rgb(74, 74, 74);
-    border-inline-start-color: rgb(74, 74, 74);
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    cursor: pointer;
-    perspective-origin: 0px 0px;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    transform-origin: 0px 0px;
-    white-space: nowrap;
-    border: 0px none rgb(74, 74, 74);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-}/*#use_16, #use_20*/
-
-#use_16:after, #use_20:after {
-    border-block-end-color: rgb(74, 74, 74);
-    border-block-start-color: rgb(74, 74, 74);
-    border-inline-end-color: rgb(74, 74, 74);
-    border-inline-start-color: rgb(74, 74, 74);
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    white-space: nowrap;
-    border: 0px none rgb(74, 74, 74);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-}/*#use_16:after, #use_20:after*/
-
-#use_16:before, #use_20:before {
-    border-block-end-color: rgb(74, 74, 74);
-    border-block-start-color: rgb(74, 74, 74);
-    border-inline-end-color: rgb(74, 74, 74);
-    border-inline-start-color: rgb(74, 74, 74);
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    white-space: nowrap;
-    border: 0px none rgb(74, 74, 74);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-}/*#use_16:before, #use_20:before*/
-
-#LI_21 {
-    block-size: 40.7969px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 40.7969px;
-    inline-size: 234.453px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    margin-block-start: 12px;
-    perspective-origin: 117.219px 20.3906px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 117.227px 20.3984px;
-    width: 234.453px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 12px 0px 0px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_21*/
-
-#LI_21:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_21:after*/
-
-#LI_21:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_21:before*/
-
-#A_22, #A_24, #A_26, #A_28, #A_30, #A_32, #A_34, #A_36, #A_38 {
-    align-items: center;
-    block-size: 40.7969px;
-    border-block-end-color: rgba(0, 0, 0, 0);
-    border-block-end-style: solid;
-    border-block-end-width: 2px;
-    border-block-start-color: rgba(0, 0, 0, 0);
-    border-block-start-style: solid;
-    border-block-start-width: 2px;
-    border-inline-end-color: rgba(0, 0, 0, 0);
-    border-inline-end-style: solid;
-    border-inline-end-width: 2px;
-    border-inline-start-color: rgba(0, 0, 0, 0);
-    border-inline-start-style: solid;
-    border-inline-start-width: 2px;
-    box-sizing: border-box;
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    display: flex;
-    height: 40.7969px;
-    inline-size: 234.453px;
-    padding-block-end: 8px;
-    padding-block-start: 8px;
-    padding-inline-end: 24px;
-    padding-inline-start: 24px;
-    perspective-origin: 117.219px 20.3906px;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    transform-origin: 117.227px 20.3984px;
-    white-space: nowrap;
-    width: 234.453px;
-    border: 2px solid rgba(0, 0, 0, 0);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-    padding: 8px 24px;
-}/*#A_22, #A_24, #A_26, #A_28, #A_30, #A_32, #A_34, #A_36, #A_38*/
-
-#A_22:after, #A_24:after, #A_26:after, #A_28:after, #A_30:after, #A_32:after, #A_34:after, #A_36:after, #A_38:after {
-    border-block-end-color: rgb(74, 74, 74);
-    border-block-start-color: rgb(74, 74, 74);
-    border-inline-end-color: rgb(74, 74, 74);
-    border-inline-start-color: rgb(74, 74, 74);
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    white-space: nowrap;
-    border: 0px none rgb(74, 74, 74);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-}/*#A_22:after, #A_24:after, #A_26:after, #A_28:after, #A_30:after, #A_32:after, #A_34:after, #A_36:after, #A_38:after*/
-
-#A_22:before, #A_24:before, #A_26:before, #A_28:before, #A_30:before, #A_32:before, #A_34:before, #A_36:before, #A_38:before {
-    border-block-end-color: rgb(74, 74, 74);
-    border-block-start-color: rgb(74, 74, 74);
-    border-inline-end-color: rgb(74, 74, 74);
-    border-inline-start-color: rgb(74, 74, 74);
-    caret-color: rgb(74, 74, 74);
-    color: rgb(74, 74, 74);
-    column-rule-color: rgb(74, 74, 74);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(74, 74, 74);
-    text-emphasis-color: rgb(74, 74, 74);
-    white-space: nowrap;
-    border: 0px none rgb(74, 74, 74);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(74, 74, 74) none 0px;
-}/*#A_22:before, #A_24:before, #A_26:before, #A_28:before, #A_30:before, #A_32:before, #A_34:before, #A_36:before, #A_38:before*/
-
-#LI_23, #LI_25, #LI_29, #LI_33, #LI_37 {
-    block-size: 40.7969px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 40.7969px;
-    inline-size: 234.453px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    perspective-origin: 117.219px 20.3906px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 117.227px 20.3984px;
-    width: 234.453px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_23, #LI_25, #LI_29, #LI_33, #LI_37*/
-
-#LI_23:after, #LI_25:after, #LI_29:after, #LI_33:after, #LI_37:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_23:after, #LI_25:after, #LI_29:after, #LI_33:after, #LI_37:after*/
-
-#LI_23:before, #LI_25:before, #LI_29:before, #LI_33:before, #LI_37:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_23:before, #LI_25:before, #LI_29:before, #LI_33:before, #LI_37:before*/
-
-#LI_27, #LI_31 {
-    block-size: 40.7969px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 40.7969px;
-    inline-size: 234.453px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    perspective-origin: 117.219px 20.3906px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 117.227px 20.3984px;
-    width: 234.453px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_27, #LI_31*/
-
-#LI_27:after, #LI_31:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_27:after, #LI_31:after*/
-
-#LI_27:before, #LI_31:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_27:before, #LI_31:before*/
-
-#LI_35 {
-    block-size: 40.7969px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 40.7969px;
-    inline-size: 234.453px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    perspective-origin: 117.219px 20.3906px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 117.227px 20.3984px;
-    width: 234.453px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_35*/
-
-#LI_35:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_35:after*/
-
-#LI_35:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_35:before*/
-
-#LI_39 {
-    block-size: 28px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 28px;
-    inline-size: 135.562px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    perspective-origin: 67.7812px 14px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 67.7812px 14px;
-    width: 135.562px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_39*/
-
-#LI_39:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_39:after*/
-
-#LI_39:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_39:before*/
-
-#BUTTON_40 {
-    appearance: none;
-    block-size: 28px;
-    border-block-end-color: rgba(0, 0, 0, 0);
-    border-block-end-style: solid;
-    border-block-start-color: rgba(0, 0, 0, 0);
-    border-block-start-style: solid;
-    border-inline-end-color: rgba(0, 0, 0, 0);
-    border-inline-end-style: solid;
-    border-inline-start-color: rgba(0, 0, 0, 0);
-    border-inline-start-style: solid;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    height: 28px;
-    inline-size: 103.562px;
-    margin-inline-start: 32px;
-    perspective-origin: 51.7812px 14px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 51.7812px 14px;
-    width: 103.562px;
-    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 2px solid rgba(0, 0, 0, 0);
-    font: 16px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px 0px 0px 32px;
-    outline: rgb(255, 255, 255) none 0px;
-    transition: border-color 0.2s ease 0s;
-}/*#BUTTON_40*/
-
-#BUTTON_40:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#BUTTON_40:after*/
-
-#BUTTON_40:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#BUTTON_40:before*/
-
-#LI_41 {
-    block-size: 28px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 28px;
-    inline-size: 86.2031px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    perspective-origin: 43.0938px 14px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 43.1016px 14px;
-    width: 86.2031px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_41*/
-
-#LI_41:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_41:after*/
-
-#LI_41:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_41:before*/
-
-#BUTTON_42 {
-    appearance: none;
-    block-size: 28px;
-    border-block-end-color: rgba(0, 0, 0, 0);
-    border-block-end-style: solid;
-    border-block-start-color: rgba(0, 0, 0, 0);
-    border-block-start-style: solid;
-    border-inline-end-color: rgba(0, 0, 0, 0);
-    border-inline-end-style: solid;
-    border-inline-start-color: rgba(0, 0, 0, 0);
-    border-inline-start-style: solid;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    height: 28px;
-    inline-size: 54.2031px;
-    margin-inline-start: 32px;
-    perspective-origin: 27.0938px 14px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 27.1016px 14px;
-    width: 54.2031px;
-    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 2px solid rgba(0, 0, 0, 0);
-    font: 16px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px 0px 0px 32px;
-    outline: rgb(255, 255, 255) none 0px;
-    transition: border-color 0.2s ease 0s;
-}/*#BUTTON_42*/
-
-#BUTTON_42:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#BUTTON_42:after*/
-
-#BUTTON_42:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#BUTTON_42:before*/
-
-#UL_43 {
-    align-items: center;
-    block-size: 46.9844px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: flex;
-    height: 46.9844px;
-    inline-size: 300px;
-    margin-block-end: 0px;
-    margin-block-start: 0px;
-    margin-inline-start: 1039.28px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    padding-inline-start: 0px;
-    perspective-origin: 150px 23.4844px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 150px 23.4922px;
-    width: 300px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px 0px 0px 1039.28px;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 0px;
-}/*#UL_43*/
-
-#UL_43:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: block;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#UL_43:after*/
-
-#UL_43:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: block;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#UL_43:before*/
-
-#LI_44 {
-    block-size: 44px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 44px;
-    inline-size: 44px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    perspective-origin: 22px 22px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 22px 22px;
-    width: 44px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_44*/
-
-#LI_44:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_44:after*/
-
-#LI_44:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_44:before*/
-
-#A_45 {
-    align-items: center;
-    block-size: 40px;
-    border-block-end-color: rgba(0, 0, 0, 0);
-    border-block-end-style: solid;
-    border-block-end-width: 2px;
-    border-block-start-color: rgba(0, 0, 0, 0);
-    border-block-start-style: solid;
-    border-block-start-width: 2px;
-    border-end-end-radius: 4px;
-    border-end-start-radius: 4px;
-    border-inline-end-color: rgba(0, 0, 0, 0);
-    border-inline-end-style: solid;
-    border-inline-end-width: 2px;
-    border-inline-start-color: rgba(0, 0, 0, 0);
-    border-inline-start-style: solid;
-    border-inline-start-width: 2px;
-    border-start-end-radius: 4px;
-    border-start-start-radius: 4px;
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: flex;
-    height: 40px;
-    inline-size: 40px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    justify-content: center;
-    left: 0px;
-    perspective-origin: 22px 22px;
-    position: relative;
-    right: 0px;
-    text-align: left;
-    text-decoration: underline solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 22px 22px;
-    width: 40px;
-    border: 2px solid rgba(0, 0, 0, 0);
-    border-radius: 4px;
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-    transition: background-color 0.3s ease 0s, border 0.3s ease 0s;
-}/*#A_45*/
-
-#A_45:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#A_45:after*/
-
-#A_45:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: block;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#A_45:before*/
-
-#I_46 {
-    block-size: 9px;
-    border-block-end-color: rgb(2, 135, 77);
-    border-block-end-style: solid;
-    border-block-end-width: 4px;
-    border-block-start-color: rgb(2, 135, 77);
-    border-block-start-style: solid;
-    border-block-start-width: 4px;
-    border-end-end-radius: 50%;
-    border-end-start-radius: 50%;
-    border-inline-end-color: rgb(2, 135, 77);
-    border-inline-end-style: solid;
-    border-inline-end-width: 4px;
-    border-inline-start-color: rgb(2, 135, 77);
-    border-inline-start-style: solid;
-    border-inline-start-width: 4px;
-    border-start-end-radius: 50%;
-    border-start-start-radius: 50%;
-    bottom: 23px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: block;
-    height: 9px;
-    inline-size: 9px;
-    inset-block-end: 23px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 23px;
-    left: 23px;
-    perspective-origin: 8.5px 8.5px;
-    position: absolute;
-    right: 0px;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 8.5px 8.5px;
-    width: 9px;
-    background: rgb(255, 205, 30) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 4px solid rgb(2, 135, 77);
-    border-radius: 50%;
-    font: italic 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-    transition: border-color 0.3s ease 0s, box-shadow 0.3s ease 0s;
-}/*#I_46*/
-
-#I_46:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: italic 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#I_46:after*/
-
-#I_46:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: italic 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#I_46:before*/
-
-#svg_47 {
-    block-size: 40px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: block;
-    height: 40px;
-    inline-size: 40px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    perspective-origin: 20px 20px;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 20px 20px;
-    width: 40px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-    overflow: hidden;
-    transition: color 0.3s ease 0s;
-}/*#svg_47*/
-
-#svg_47:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#svg_47:after*/
-
-#svg_47:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#svg_47:before*/
-
-#use_48 {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    perspective-origin: 0px 0px;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 0px 0px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_48*/
-
-#use_48:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_48:after*/
-
-#use_48:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_48:before*/
-
-#LI_49 {
-    block-size: 46.9844px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 46.9844px;
-    inline-size: 168px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    margin-inline-start: 24px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    perspective-origin: 84px 23.4844px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 84px 23.4922px;
-    width: 168px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px 0px 0px 24px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_49*/
-
-#LI_49:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_49:after*/
-
-#LI_49:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_49:before*/
-
-#A_50 {
-    block-size: 38.9844px;
-    border-block-end-color: rgba(0, 0, 0, 0);
-    border-block-end-style: solid;
-    border-block-end-width: 2px;
-    border-block-start-color: rgba(0, 0, 0, 0);
-    border-block-start-style: solid;
-    border-block-start-width: 2px;
-    border-end-end-radius: 4px;
-    border-end-start-radius: 4px;
-    border-inline-end-color: rgba(0, 0, 0, 0);
-    border-inline-end-style: solid;
-    border-inline-end-width: 2px;
-    border-inline-start-color: rgba(0, 0, 0, 0);
-    border-inline-start-style: solid;
-    border-inline-start-width: 2px;
-    border-start-end-radius: 4px;
-    border-start-start-radius: 4px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    display: block;
-    height: 38.9844px;
-    inline-size: 160px;
-    padding-block-end: 2px;
-    padding-block-start: 2px;
-    padding-inline-end: 2px;
-    padding-inline-start: 2px;
-    perspective-origin: 84px 23.4844px;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 84px 23.4922px;
-    width: 160px;
-    border: 2px solid rgba(0, 0, 0, 0);
-    border-radius: 4px;
-    font: 14px / 18.2px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-    padding: 2px;
-    transition: border-color 0.2s ease 0s;
-}/*#A_50*/
-
-#A_50:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 14px / 18.2px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#A_50:after*/
-
-#A_50:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 14px / 18.2px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#A_50:before*/
-
-#IMG_51 {
-    block-size: 38px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-end-end-radius: 3px;
-    border-end-start-radius: 3px;
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    border-start-end-radius: 3px;
-    border-start-start-radius: 3px;
-    bottom: 4.98438px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: block;
-    height: 38px;
-    inline-size: 38px;
-    inset-block-end: 4.98438px;
-    inset-block-start: 4px;
-    inset-inline-end: 126px;
-    inset-inline-start: 4px;
-    left: 4px;
-    perspective-origin: 19px 19px;
-    position: absolute;
-    right: 126px;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 4px;
-    transform-origin: 19px 19px;
-    width: 38px;
-    border: 0px none rgb(255, 255, 255);
-    border-radius: 3px;
-    font: 14px / 18.2px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#IMG_51*/
-
-#IMG_51:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 14px / 18.2px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#IMG_51:after*/
-
-#IMG_51:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 14px / 18.2px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#IMG_51:before*/
-
-#SPAN_52 {
-    block-size: 20.7969px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: block;
-    height: 20.7969px;
-    inline-size: 112px;
-    margin-inline-start: 48px;
-    perspective-origin: 56px 10.3906px;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    text-overflow: ellipsis;
-    transform-origin: 56px 10.3984px;
-    white-space: nowrap;
-    width: 112px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px 0px 0px 48px;
-    outline: rgb(255, 255, 255) none 0px;
-    overflow: hidden;
-}/*#SPAN_52*/
-
-#SPAN_52:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    white-space: nowrap;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#SPAN_52:after*/
-
-#SPAN_52:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    white-space: nowrap;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#SPAN_52:before*/
-
-#SPAN_53 {
-    block-size: 18.1875px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: block;
-    height: 18.1875px;
-    inline-size: 112px;
-    margin-inline-start: 48px;
-    perspective-origin: 56px 9.09375px;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    text-overflow: ellipsis;
-    transform-origin: 56px 9.09375px;
-    white-space: nowrap;
-    width: 112px;
-    border: 0px none rgb(255, 255, 255);
-    font: 14px / 18.2px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px 0px 0px 48px;
-    outline: rgb(255, 255, 255) none 0px;
-    overflow: hidden;
-}/*#SPAN_53*/
-
-#SPAN_53:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    white-space: nowrap;
-    border: 0px none rgb(255, 255, 255);
-    font: 14px / 18.2px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#SPAN_53:after*/
-
-#SPAN_53:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: left;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    white-space: nowrap;
-    border: 0px none rgb(255, 255, 255);
-    font: 14px / 18.2px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#SPAN_53:before*/
-
-#LI_54 {
-    block-size: 40px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    bottom: 0px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    height: 40px;
-    inline-size: 40px;
-    inset-block-end: 0px;
-    inset-block-start: 0px;
-    inset-inline-end: 0px;
-    inset-inline-start: 0px;
-    left: 0px;
-    margin-inline-start: 24px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    perspective-origin: 20px 20px;
-    position: relative;
-    right: 0px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    top: 0px;
-    transform-origin: 20px 20px;
-    width: 40px;
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    margin: 0px 0px 0px 24px;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_54*/
-
-#LI_54:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_54:after*/
-
-#LI_54:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 16px / 20.8px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#LI_54:before*/
-
-#BUTTON_55 {
-    align-items: center;
-    appearance: none;
-    block-size: 40px;
-    border-block-end-color: rgba(0, 0, 0, 0);
-    border-block-end-style: solid;
-    border-block-start-color: rgba(0, 0, 0, 0);
-    border-block-start-style: solid;
-    border-end-end-radius: 3px;
-    border-end-start-radius: 3px;
-    border-inline-end-color: rgba(0, 0, 0, 0);
-    border-inline-end-style: solid;
-    border-inline-start-color: rgba(0, 0, 0, 0);
-    border-inline-start-style: solid;
-    border-start-end-radius: 3px;
-    border-start-start-radius: 3px;
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: flex;
-    height: 40px;
-    inline-size: 40px;
-    justify-content: center;
-    perspective-origin: 20px 20px;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 20px 20px;
-    width: 40px;
-    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 2px solid rgba(0, 0, 0, 0);
-    border-radius: 3px;
-    font: 13.3333px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-    transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s;
-}/*#BUTTON_55*/
-
-#BUTTON_55:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: block;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 13.3333px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#BUTTON_55:after*/
-
-#BUTTON_55:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: block;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 13.3333px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#BUTTON_55:before*/
-
-#svg_56 {
-    block-size: 24px;
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: block;
-    height: 24px;
-    inline-size: 24px;
-    min-block-size: auto;
-    min-height: auto;
-    min-inline-size: auto;
-    min-width: auto;
-    perspective-origin: 12px 12px;
-    text-align: center;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 12px 12px;
-    width: 24px;
-    border: 0px none rgb(255, 255, 255);
-    font: 13.3333px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-    overflow: hidden;
-}/*#svg_56*/
-
-#svg_56:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 13.3333px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#svg_56:after*/
-
-#svg_56:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 13.3333px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#svg_56:before*/
-
-#use_57 {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    perspective-origin: 0px 0px;
-    text-align: center;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    transform-origin: 0px 0px;
-    border: 0px none rgb(255, 255, 255);
-    font: 13.3333px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_57*/
-
-#use_57:after {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 13.3333px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_57:after*/
-
-#use_57:before {
-    border-block-end-color: rgb(255, 255, 255);
-    border-block-start-color: rgb(255, 255, 255);
-    border-inline-end-color: rgb(255, 255, 255);
-    border-inline-start-color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
-    column-rule-color: rgb(255, 255, 255);
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none solid rgb(255, 255, 255);
-    text-emphasis-color: rgb(255, 255, 255);
-    border: 0px none rgb(255, 255, 255);
-    font: 13.3333px "Noto Sans", sans-serif;
-    list-style: outside none none;
-    outline: rgb(255, 255, 255) none 0px;
-}/*#use_57:before*/
-
-#BUTTON_58 {
-    block-size: 48px;
-    border-block-end-style: none;
-    border-block-end-width: 0px;
-    border-block-start-style: none;
-    border-block-start-width: 0px;
-    border-inline-end-style: none;
-    border-inline-end-width: 0px;
-    border-inline-start-style: none;
-    border-inline-start-width: 0px;
-    display: none;
-    height: 48px;
-    inline-size: 48px;
-    margin-inline-start: auto;
-    padding-block-end: 0px;
-    padding-block-start: 0px;
-    padding-inline-end: 0px;
-    padding-inline-start: 0px;
+} 
+
+.toggle-gc-mobile-nav  { 
+    background-color: transparent; 
+    border: 0px; 
+    height: 48px; 
+    margin-left: auto; 
+    padding: 0px; 
     width: 48px;
-    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;
-    border: 0px none rgb(0, 0, 0);
-    font: 13.3333px "Noto Sans", sans-serif;
-    margin: 0px 0px 0px auto;
+} 
+
+@media screen and (min-width: 768px){ 
+  .toggle-gc-mobile-nav  { 
+    display: none;
+  } 
+}     
+
+.home-link svg  { 
+    height: 100%; 
+    width: 216px;
+} 
+
+.home-link .logo-square  { 
+    display: none; 
+    fill: rgb(255, 255, 255);
+} 
+
+li  { 
+    margin: 0px; 
     padding: 0px;
-    transition: border-color 0.2s ease 0s;
-}/*#BUTTON_58*/
+} 
 
-#BUTTON_58:after {
-    font: 13.3333px "Noto Sans", sans-serif;
-}/*#BUTTON_58:after*/
-
-#BUTTON_58:before {
-    font: 13.3333px "Noto Sans", sans-serif;
-}/*#BUTTON_58:before*/
-
-#SPAN_59 {
-    block-size: 24px;
-    cursor: default;
-    display: inline-block;
-    height: 24px;
-    inline-size: 40px;
+ul > li  { 
     position: relative;
-    text-align: center;
+} 
+
+.user-menu li + li  { 
+    margin-left: 24px;
+} 
+
+.hamburger-box { 
+    width: 40px; 
+    height: 24px; 
+    display: inline-block; 
+    position: relative;
+} 
+
+.dropdown-toggle  { 
+    appearance: none; 
+    background-color: transparent; 
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+} 
+
+.gc-menu button  { 
+    border: 2px solid transparent;
+} 
+
+.gc-menu .dropdown-toggle  { 
+    font-size: 16px; 
+    margin-left: 32px;
+} 
+
+.gc-menu button:hover  { 
+    text-decoration: underline;
+} 
+
+.message-center { 
+    align-items: center; 
+    border: 2px solid transparent; 
+    border-radius: 4px; 
+    color: white; 
+    display: flex; 
+    height: 40px; 
+    justify-content: center; 
+    position: relative; 
+    transition: background-color 0.3s, border 0.3s; 
     width: 40px;
-    font: 13.3333px "Noto Sans", sans-serif;
-}/*#SPAN_59*/
+} 
 
-#SPAN_59:after {
-    cursor: default;
-    text-align: center;
-    font: 13.3333px "Noto Sans", sans-serif;
-}/*#SPAN_59:after*/
+.message-center  { 
+    display: none;
+} 
 
-#SPAN_59:before {
-    cursor: default;
-    text-align: center;
-    font: 13.3333px "Noto Sans", sans-serif;
-}/*#SPAN_59:before*/
+@media screen and (min-width: 768px){ 
+  .message-center  { 
+    display: flex;
+  } 
+}     
 
-#SPAN_60 {
-    block-size: 4px;
-    border-end-end-radius: 4px;
-    border-end-start-radius: 4px;
-    border-start-end-radius: 4px;
-    border-start-start-radius: 4px;
-    cursor: default;
+.message-center:hover { 
+    background-color: white; 
+    color: #02874d;
+} 
+
+.player-profile { 
+    border: 2px solid transparent; 
+    border-radius: 4px; 
+    color: white !important; 
+    display: block; 
+    font-size: 14px; 
+    text-decoration: none; 
+    padding: 2px; 
+    transition: border-color 0.2s;
+} 
+
+@media screen and (min-width: 1024px){ 
+  .player-profile { 
+    width: 160px;
+  } 
+}     
+
+.player-profile  { 
+    display: none;
+} 
+
+@media screen and (min-width: 768px){ 
+  .player-profile  { 
     display: block;
-    height: 4px;
-    inline-size: 40px;
-    inset-block-start: 50%;
-    margin-block-start: -2px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
+  } 
+}     
+
+.player-profile:hover { 
+    text-decoration: underline;
+} 
+
+.toggle-user-menu  { 
+    -webkit-box-align: center; 
+    align-items: center; 
+    border: 2px solid transparent; 
+    border-radius: 3px; 
+    display: none; 
+    height: 40px; 
+    -webkit-box-pack: center; 
+    justify-content: center; 
+    transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s; 
     width: 40px;
-    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    border-radius: 4px;
-    font: 13.3333px "Noto Sans", sans-serif;
-    margin: -2px 0px 0px;
-    transition: transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s;
-}/*#SPAN_60*/
+} 
 
-#SPAN_60:after {
-    block-size: 4px;
-    border-end-end-radius: 4px;
-    border-end-start-radius: 4px;
-    border-start-end-radius: 4px;
-    border-start-start-radius: 4px;
-    bottom: -10px;
-    content: '""';
-    cursor: default;
-    display: block;
-    height: 4px;
-    inline-size: 40px;
-    inset-block-end: -10px;
-    position: absolute;
-    text-align: center;
-    width: 40px;
-    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    border-radius: 4px;
-    font: 13.3333px "Noto Sans", sans-serif;
-    transition: bottom 0.075s ease 0.12s, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19) 0s;
-}/*#SPAN_60:after*/
+@media screen and (min-width: 768px){ 
+  .toggle-user-menu  { 
+    display: flex;
+  } 
+}     
 
-#SPAN_60:before {
-    block-size: 4px;
-    border-end-end-radius: 4px;
-    border-end-start-radius: 4px;
-    border-start-end-radius: 4px;
-    border-start-start-radius: 4px;
-    content: '""';
-    cursor: default;
+.toggle-user-menu:hover  { 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(2, 135, 77);
+} 
+
+.hamburger-inner { 
+    display:  block; 
+    top:  50%; 
+    margin-top:  -2px;
+    width: 40px; 
+    height: 4px; 
+    background-color: white; 
+    border-radius: 4px; 
+    position: absolute; 
+    transition-property: transform; 
+    transition-duration: 0.15s; 
+    transition-timing-function: ease;
+} 
+
+.hamburger--squeeze .hamburger-inner  { 
+    transition-duration: 0.075s; 
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+} 
+
+.toggle-gc-mobile-nav .hamburger-inner  { 
+    background-color: rgb(255, 255, 255);
+} 
+
+.hamburger-inner,.hamburger-inner:before,.hamburger-inner:after { 
+    width: 40px; 
+    height: 4px; 
+    background-color: white; 
+    border-radius: 4px; 
+    position: absolute; 
+    transition-property: transform; 
+    transition-duration: 0.15s; 
+    transition-timing-function: ease;
+} 
+
+.hamburger-inner:before,.hamburger-inner:after { 
+    content: ""; 
     display: block;
-    height: 4px;
-    inline-size: 40px;
-    inset-block-start: -10px;
-    position: absolute;
-    text-align: center;
+} 
+
+.hamburger-inner:before { 
     top: -10px;
-    width: 40px;
-    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-    border-radius: 4px;
-    font: 13.3333px "Noto Sans", sans-serif;
-    transition: top 0.075s ease 0.12s, opacity 0.075s ease 0s;
-}/*#SPAN_60:before*/
+} 
+
+.hamburger--squeeze .hamburger-inner:before  { 
+    transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+} 
+
+.hamburger-inner:after { 
+    bottom: -10px;
+} 
+
+.hamburger--squeeze .hamburger-inner:after  { 
+    transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+} 
+
+.message-center i  { 
+    background-color: #ffcd1e; 
+    border: 4px solid #02874d; 
+    border-radius: 50%; 
+    box-sizing: content-box; 
+    height: 9px; 
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    transition: border-color 0.3s, box-shadow 0.3s; 
+    width: 9px;
+} 
+
+.message-center svg  { 
+    color: white; 
+    height: 40px !important; 
+    margin: 0 !important; 
+    transition: color 0.3s; 
+    width: auto !important;
+} 
+
+.player-profile img  { 
+    border-radius:  3px; 
+    position:  absolute;
+    display: none;
+} 
+
+@media screen and (min-width: 768px){ 
+  .player-profile img  { 
+    display: block; 
+    position: static;
+  } 
+}     
+
+@media screen and (min-width: 1024px){ 
+  .player-profile img  { 
+    position: absolute;
+  } 
+}     
+
+.player-profile span  { 
+    display: block; 
+    margin-left: 48px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    width: 90px;
+} 
+
+@media screen and (min-width: 768px){ 
+  .player-profile span  { 
+    width: auto;
+  } 
+}     
+
+.player-profile span.username  { 
+    font-size: 16px;
+} 
+
+.player-profile span  { 
+    display: none;
+} 
+
+@media screen and (min-width: 1024px){ 
+  .player-profile span  { 
+    display: block;
+  } 
+}     
+
+.toggle-user-menu svg  { 
+    height: 24px; 
+    width: 24px;
+} 
+
 
