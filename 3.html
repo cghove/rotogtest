@@ -1,0 +1,416 @@
++<html><body><p>/* CSS styles */
+@import url("//fonts.googleapis.com/css2?family=Noto+Sans"); 
+.css-az98zw { 
+    background-color: rgb(2, 135, 77); 
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    height: 80px; 
+    width: 100%;
+} 
+ 
+#gc-header { 
+    -moz-osx-font-smoothing:  grayscale; 
+    -webkit-font-smoothing:  antialiased;
+    position: absolute; 
+    z-index: 2000;
+} 
+ 
+#root { 
+    height: 100vh;
+} 
+ 
+body { 
+    font-family:  'Noto Sans', sans-serif; 
+    font-size:  1rem; 
+    height:  100%; 
+    line-height:  1.3; 
+    margin:  0; 
+    overflow:  hidden; 
+    position:  absolute; 
+    width:  100%;
+    margin-left: 0; 
+    transition: margin-left 0.1s ease-out; 
+} 
+ 
+nav  { 
+    -webkit-box-align: center; 
+    align-items: center; 
+    box-sizing: border-box; 
+    display: flex; 
+    max-width: 1300px; 
+    min-height: 80px; 
+    overflow: visible; 
+    padding: 0px 12px; 
+    width: 100vw; 
+    position: relative !important;
+} 
+ 
+@media screen and (min-width: 768px){ 
+  nav  { 
+    margin: 0px auto; 
+    padding: 0px 32px;
+  } 
+}     
+ 
+nav  { 
+    max-width: none !important; 
+    width: auto !important;
+} 
+ 
+.css-11dfp96 { 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(61, 118, 197); 
+    left: 0px; 
+    overflow: hidden; 
+    position: fixed; 
+    text-decoration: underline; 
+    top: 0px; 
+    width: 0px;
+} 
+ 
+.home-link  { 
+    border-radius: 3px; 
+    color: rgb(255, 255, 255); 
+    display: block; 
+    flex: 0 0 216px; 
+    height: 40px; 
+    overflow: hidden; 
+    width: 216px;
+} 
+ 
+@media screen and (min-width: 1055px){ 
+  .home-link  { 
+    flex: 0 0 216px; 
+    width: 216px;
+  } 
+}     
+ 
+.home-link:focus  { 
+    border: none; 
+    box-shadow: rgb(2, 135, 77) 0px 0px 0px 3px, rgb(255, 255, 255) 0px 0px 0px 5px; 
+    outline: none;
+} 
+ 
+.home-link:visited  { 
+    color: rgb(255, 255, 255);
+} 
+ 
+ul  { 
+    margin:  0px; 
+    padding:  0px;
+    -webkit-box-align: center; 
+    align-items: center; 
+    display: flex; 
+    list-style: none; 
+} 
+ 
+.gc-menu  { 
+    font-size: 16px; 
+    display: none;
+} 
+ 
+@media screen and (min-width: 768px){ 
+  .gc-menu  { 
+    display: flex;
+  } 
+}     
+ 
+.user-menu  { 
+    display: none; 
+    margin-left: auto;
+} 
+ 
+@media screen and (min-width: 768px){ 
+  .user-menu  { 
+    display: flex;
+  } 
+}     
+ 
+button { 
+    font-family: "Noto Sans",sans-serif;
+} 
+ 
+button  { 
+    border: 2px solid transparent; 
+    font-family: "Noto Sans", sans-serif; 
+    transition: border-color 0.2s ease 0s;
+} 
+ 
+.toggle-gc-mobile-nav  { 
+    background-color: transparent; 
+    border: 0px; 
+    height: 48px; 
+    margin-left: auto; 
+    padding: 0px; 
+    width: 48px;
+} 
+ 
+@media screen and (min-width: 768px){ 
+  .toggle-gc-mobile-nav  { 
+    display: none;
+  } 
+}     
+ 
+.home-link svg  { 
+    height: 100%; 
+    width: 216px;
+} 
+ 
+.home-link .logo-square  { 
+    display: none; 
+    fill: rgb(255, 255, 255);
+} 
+ 
+li  { 
+    margin: 0px; 
+    padding: 0px;
+} 
+ 
+ul &gt; li  { 
+    position: relative;
+} 
+ 
+.user-menu li + li  { 
+    margin-left: 24px;
+} 
+ 
+.hamburger-box { 
+    width: 40px; 
+    height: 24px; 
+    display: inline-block; 
+    position: relative;
+} 
+ 
+.dropdown-toggle  { 
+    appearance: none; 
+    background-color: transparent; 
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+} 
+ 
+.gc-menu button  { 
+    border: 2px solid transparent;
+} 
+ 
+.gc-menu .dropdown-toggle  { 
+    font-size: 16px; 
+    margin-left: 32px;
+} 
+ 
+.gc-menu button:hover  { 
+    text-decoration: underline;
+} 
+ 
+.message-center { 
+    align-items: center; 
+    border: 2px solid transparent; 
+    border-radius: 4px; 
+    color: white; 
+    display: flex; 
+    height: 40px; 
+    justify-content: center; 
+    position: relative; 
+    transition: background-color 0.3s, border 0.3s; 
+    width: 40px;
+} 
+ 
+.message-center  { 
+    display: none;
+} 
+ 
+@media screen and (min-width: 768px){ 
+  .message-center  { 
+    display: flex;
+  } 
+}     
+ 
+.message-center:hover { 
+    background-color: white; 
+    color: #02874d;
+} 
+ 
+.player-profile { 
+    border: 2px solid transparent; 
+    border-radius: 4px; 
+    color: white !important; 
+    display: block; 
+    font-size: 14px; 
+    text-decoration: none; 
+    padding: 2px; 
+    transition: border-color 0.2s;
+} 
+ 
+@media screen and (min-width: 1024px){ 
+  .player-profile { 
+    width: 160px;
+  } 
+}     
+ 
+.player-profile  { 
+    display: none;
+} 
+ 
+@media screen and (min-width: 768px){ 
+  .player-profile  { 
+    display: block;
+  } 
+}     
+ 
+.player-profile:hover { 
+    text-decoration: underline;
+} 
+ 
+.toggle-user-menu  { 
+    -webkit-box-align: center; 
+    align-items: center; 
+    border: 2px solid transparent; 
+    border-radius: 3px; 
+    display: none; 
+    height: 40px; 
+    -webkit-box-pack: center; 
+    justify-content: center; 
+    transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s; 
+    width: 40px;
+} 
+ 
+@media screen and (min-width: 768px){ 
+  .toggle-user-menu  { 
+    display: flex;
+  } 
+}     
+ 
+.toggle-user-menu:hover  { 
+    background-color: rgb(255, 255, 255); 
+    color: rgb(2, 135, 77);
+} 
+ 
+.hamburger-inner { 
+    display:  block; 
+    top:  50%; 
+    margin-top:  -2px;
+    width: 40px; 
+    height: 4px; 
+    background-color: white; 
+    border-radius: 4px; 
+    position: absolute; 
+    transition-property: transform; 
+    transition-duration: 0.15s; 
+    transition-timing-function: ease;
+} 
+ 
+.hamburger--squeeze .hamburger-inner  { 
+    transition-duration: 0.075s; 
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+} 
+ 
+.toggle-gc-mobile-nav .hamburger-inner  { 
+    background-color: rgb(255, 255, 255);
+} 
+ 
+.hamburger-inner,.hamburger-inner:before,.hamburger-inner:after { 
+    width: 40px; 
+    height: 4px; 
+    background-color: white; 
+    border-radius: 4px; 
+    position: absolute; 
+    transition-property: transform; 
+    transition-duration: 0.15s; 
+    transition-timing-function: ease;
+} 
+ 
+.hamburger-inner:before,.hamburger-inner:after { 
+    content: ""; 
+    display: block;
+} 
+ 
+.hamburger-inner:before { 
+    top: -10px;
+} 
+ 
+.hamburger--squeeze .hamburger-inner:before  { 
+    transition: top 0.075s 0.12s ease, opacity 0.075s ease;
+} 
+ 
+.hamburger-inner:after { 
+    bottom: -10px;
+} 
+ 
+.hamburger--squeeze .hamburger-inner:after  { 
+    transition: bottom 0.075s 0.12s ease, transform 0.075s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+} 
+ 
+.message-center i  { 
+    background-color: #ffcd1e; 
+    border: 4px solid #02874d; 
+    border-radius: 50%; 
+    box-sizing: content-box; 
+    height: 9px; 
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    transition: border-color 0.3s, box-shadow 0.3s; 
+    width: 9px;
+} 
+ 
+.message-center svg  { 
+    color: white; 
+    height: 40px !important; 
+    margin: 0 !important; 
+    transition: color 0.3s; 
+    width: auto !important;
+} 
+ 
+.player-profile img  { 
+    border-radius:  3px; 
+    position:  absolute;
+    display: none;
+} 
+ 
+@media screen and (min-width: 768px){ 
+  .player-profile img  { 
+    display: block; 
+    position: static;
+  } 
+}     
+ 
+@media screen and (min-width: 1024px){ 
+  .player-profile img  { 
+    position: absolute;
+  } 
+}     
+ 
+.player-profile span  { 
+    display: block; 
+    margin-left: 48px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    width: 90px;
+} 
+ 
+@media screen and (min-width: 768px){ 
+  .player-profile span  { 
+    width: auto;
+  } 
+}     
+ 
+.player-profile span.username  { 
+    font-size: 16px;
+} 
+ 
+.player-profile span  { 
+    display: none;
+} 
+ 
+@media screen and (min-width: 1024px){ 
+  .player-profile span  { 
+    display: block;
+  } 
+}     
+ 
+.toggle-user-menu svg  { 
+    height: 24px; 
+    width: 24px;
+} 
+ 
+</p></body></html>
